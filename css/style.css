@@ -1,0 +1,86 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    background-color: #18a0ac;
+    background-image: url('../img/bg-pattern-top.svg') , url('../img/bg-pattern-bottom.svg') ;
+    background-position: top -400px left -250px, right -150px bottom -550px;
+    background-repeat: no-repeat;
+    
+    
+}
+.container {
+    max-width: 355px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    height: calc(100vh - 2rem)
+    
+    
+}
+span {
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+
+.card {
+    width: 350px;
+    background:#fff url('../img/bg-pattern-card.svg') top no-repeat;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px 9px rgb(0, 0, 0, .1);
+    
+}
+
+.profile {
+    text-align: center;
+    padding-top: 87px;
+    padding-bottom: 25px;
+    border-bottom: #e7e7e7 0.9px solid;
+}
+
+.profileimg {
+    border: #fff 4px solid;
+    border-radius: 50%;
+    
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 18px;
+        
+}
+
+.info {
+    padding: 25px 20px;
+}
+
+.stats {
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+    
+
+
+
+
+.circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
